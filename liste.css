@@ -1,0 +1,324 @@
+/* IMPORTANT */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Sansita+Swashed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+*{
+    margin: 0; padding: 0;
+}
+html {
+    font-family: 'Oxygen', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(206, 37, 192);
+}
+body{
+        background-image: url(https://previews.123rf.com/images/1507kot/1507kot1307/1507kot130700004/20891568-fond-d-%C3%A9cran-de-b%C3%A9b%C3%A9-sans-soudure-des-dessins-d-enfants-mignons-.jpg);
+}
+/* END IMPORTANT */
+
+
+
+
+
+
+/* HEADER */
+
+
+.inner{
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.menu{
+    height: 66px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:#c0c3c9;
+    opacity: 0.80;
+    border: 2px solid black;
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+.logo{
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 700    ;
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    color: rgb(8, 8, 8);
+    transition-duration: 2000ms;
+    transition-property: color, transform;
+}
+
+
+
+
+
+
+.logo:hover{
+    color:rgb(255, 255, 255);
+    text-shadow:3px 3px 3px darkred;
+    transform:rotatey(360deg);
+}
+
+
+
+.menu-left{ display: flex;
+            justify-content: baseline;
+            align-self: center;
+            
+}
+
+
+
+
+.menu-right{
+   float: right;
+}
+
+
+
+
+.m-link{
+    color:rgb(29, 32, 31);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+    padding: 0px; margin: 0px  10px;
+    
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid transparent;
+
+}
+
+
+
+
+.m-link i{
+    margin-right: 4px;
+}
+
+
+
+.m-link:hover{
+    border-color: white;
+}
+
+/* END HEADER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLE */
+.titre{
+    font-size: 38px;
+    margin-top: 30px;
+   
+}
+#colortitle{
+    color: blue;
+}
+
+#colortitle2{
+    color: rgb(33, 33, 90);
+}
+
+
+#green{
+    color: green;
+}
+
+#selection{
+    color: blue;
+}
+
+#red{
+    color: red;
+}
+
+#grey{
+    color: rgb(59, 55, 55);
+}
+
+td, th 
+
+{
+  height: 300px;
+  width: 400px;
+   text-align: center;
+  border: 3px solid black; 
+  width: auto;
+  background-color: #ada9c5;
+
+}
+table
+
+{
+    margin-left:auto;
+    margin-right:auto; 
+
+     width: 50%;
+    border-collapse: collapse;
+   align-self: center;
+}
+
+
+/* END TABLE */
+
+
+/* ARTICLE */
+
+button {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+
+  .styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(0, 220, 147);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgb(255, 51, 0);
+}
+
+
+/* END ARTICLE */
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #d8dfe6b6;
+    width: 100%;
+    height:100%;
+    position:absolute;
+bottom:0;
+width:100%;
+padding-top:20px;
+height:50px;
+
+    
+    
+}
+
+
+
+.rezo{
+    margin-left: 35px;
+}
+/* END FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORMULAIRE */
+
+
+
+
+
+
+
+
+
+
+table tfoot{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #d8dfe6b6;
+    width: 100%;
+    height:100%;
+    position:absolute;
+bottom:0;
+width:100%;
+padding-top:20px;
+height:50px;
+
+    
+    
+}
+
+
+
+.rezo{
+    margin-left: 35px;
+}
+/* END FOOTER */

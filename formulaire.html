@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Liste de naissance</title>
+        <meta charset="utf-8">
+        <link rel='stylesheet' type='text/css' media='screen' href='liste.css'>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    </head>
+
+<body> 
+        <!-- HEADER -->
+        <header role="header">
+            <nav class="menu" role="navigation">
+                <div class="inner">
+                    <div class="menu-left">
+                        <a href="liste.html">  <h1 class="logo">Formulaire achat</a></h1>  
+                    </div>
+                    <div class="menu-right">
+                        <a href="liste.html" class="m-link"><i class="fas fa-home"></i> Acceuil</a> 
+                    </div>
+               </div>
+            </nav>
+    </header>
+<!-- END HEADER -->
+
+<main>
+    <!-- MAIN -->
+    <table>
+        <div class="titre">
+        <caption>
+            <h2 id="colortitle"><b>Commander : </b></h2>
+        </caption>
+        </div>
+        <tr>
+            <th><i>nom de l’objet</i></th>
+            <th><i>image miniature</i></th>
+            <th><i>catégorie</i></th>
+            <th><i><u>Veuillez selectionner vos objets pour les ajouter au panier</u></i></th>
+        </tr>
+        <div id="achetés">
+        <tr>
+            <td><b>poussettes cannes</b></td>
+            <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/Poussette.jpg"></td>
+            <td id="green"><b>Achetés</b>	&#10004;</td>
+            <td><input type="checkbox" id="Buyp" name="Buyp"
+                checked>
+         <label for="Buyp">Ajouter à la liste</label></td>
+        </tr>
+        <tr>
+            <td><b>Couches</b></td>
+            <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/couche.png"></td>
+            <td id=green><b>Achetés	&#10004;</b></td>
+            <td><input type="checkbox" id="Buyc" name="Buyc"
+                checked>
+         <label for="Buyc">Ajouter à la liste</label></td>
+        </tr>
+        </div>
+         <div id="selection">
+            <tr>
+                <td><b>Biberons</b></td>
+                <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/Biberons.jpg"></td>
+                <td id="selection"><b>Sélectionés O</b></td>
+                <td><input type="checkbox" id="Buyb" name="Buyb"
+                    checked>
+             <label for="Buyb">Ajouter à la liste</label></td>
+             </tr>
+            <tr>
+                <td><b>Chaises hautes</b></td>
+                <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/Chaise_haute.jpg"></td>
+                <td id="selection"><b>Sélectionés O</b></td>
+                <td><input type="checkbox" id="Buych" name="Buych"
+                    checked>
+             <label for="Buych">Ajouter à la liste</label></td>
+            </tr>
+        </div>
+        <div id="urgent">
+            <tr>
+                <td><b>Cuiseur</b></td>
+                <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/Cuiser.jpg"></td>
+                 <td id="red"><b>Urgent X</b></td>
+                <td><input type="checkbox" id="Buycui" name="Buycui"
+                    checked>
+             <label for="Buycui">Ajouter à la liste</label></td>
+            </tr>
+            <tr>
+                <td><b>Nacelle</b></td>
+                <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/Nacelle.jpg"></td>
+                <td id="red"><b>Urgent X</b></td>
+                <td><input type="checkbox" id="Buyna" name="Buyna"
+                    checked>
+             <label for="Buyna">Ajouter à la liste</label></td>
+            </tr>
+        </div>
+        <div id="normaux">
+            <tr>
+                <td><b>Lie parapluie</b></td>
+                <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/lit_parapluie.png"></td>
+                <td id="grey"><b>Normaux</b></td>
+                <td><input type="checkbox" id="Buyl" name="Buyl"
+                    checked>
+             <label for="Buyl">Ajouter à la liste</label></td>
+            </tr>
+            <tr>
+                <td><b>Sièges-Auto</b></td>
+                <td><img src="https://catalogue.aubert.com/Visuels%20institutionnels/promos/2019/DESTOCKAGE/Sieges_auto.jpg"></td>
+                <td id="grey"><b>Normaux</b></td>
+                <td><input type="checkbox" id="BuyS" name="BuyS"
+                    checked>
+             <label for="BuyS">Ajouter à la liste</label></td>
+            </tr>
+        </div>
+    
+    </table>
+
+    <article>
+        <a href="formulaire.?"> <button class="favorite styled">
+            <input type="submit"> Ajouter les objets sélectionés au panier</button></a>
+    </article>
+</main>
+
+
+</body>
+
+
+
+
+</html>
